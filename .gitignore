@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Model weights (large binary files)
+*.pt
+
+# Training outputs
+runs/
+
+# Detection results
+结果/
+
+# Datasets (large image files)
+datasets/
+
+# Conda / virtualenv
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp files
+*.tmp
+*.log
